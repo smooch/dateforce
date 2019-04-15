@@ -1,33 +1,113 @@
-.App {
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  height: 100%;
+}
+
+.app {
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  width: 100%;
+  height: 30px;
+  border-collapse: collapse;
+  background-color: #4da6ff;
 }
 
-.App-link {
-  color: #61dafb;
+.header-left {
+  width: 25%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-center {
+  width: 50%;
+}
+
+.header-right {
+  width: 25%;
+}
+
+.conversations-section {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(28, 189, 55);
+}
+
+.active-conversations {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background-color: rosybrown;
+  border-collapse: collapse;
+}
+
+.chat {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: royalblue;
+  border-collapse: collapse;
+}
+
+.chat-bubble {
+  width: 207px;
+  height: 52px;
+  background: rgba(93, 217, 193, 0.2);
+  border-radius: 16px 16px 4px 16px;
+  width: 143px;
+}
+
+.chat-text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  text-align: center;
+  font-family: soleil, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 14px;
+  /* font-family: Soleil; */
+  line-height: 20px;
+}
+
+.match-profile {
+  width: 25%;
+  height: 100%;
+  position: relative;
+  float: right;
+  background-color: yellow;
+  border-collapse: collapse;
+}
+
+.funnel-section {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(189, 28, 28);
+}
+.tracks-section {
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(56, 170, 196);
 }

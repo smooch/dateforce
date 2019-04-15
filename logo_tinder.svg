@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>6D33635A-C61D-4237-9CB5-64A58A848708@1.00x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <radialGradient cx="0%" cy="100%" fx="0%" fy="100%" r="106.833%" gradientTransform="translate(0.000000,1.000000),scale(1.000000,0.875000),translate(-0.000000,-1.000000)" id="radialGradient-1">
+            <stop stop-color="#FF7854" offset="0%"></stop>
+            <stop stop-color="#FD267D" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="chatview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-277.000000, -216.000000)" fill="url(#radialGradient-1)" id="conversations">
+            <g transform="translate(0.000000, 64.000000)">
+                <g id="Stacked-Group" transform="translate(0.000000, 80.000000)">
+                    <g id="listitem">
+                        <g id="logo/tinder" transform="translate(272.000000, 68.000000)">
+                            <path d="M9.19498698,10.4599824 C9.17734152,10.4662877 9.1576145,10.4608401 9.14576823,10.4463907 C8.6016276,9.73010788 8.46490885,8.49869942 8.43164062,8.0257081 C8.42480469,7.93464368 8.3218099,7.88344825 8.23932292,7.92920699 C6.55904948,8.86748768 5,11.0870131 5,13.2299719 C5,16.9115116 7.57213542,20 12,20 C16.1485026,20 19,16.8168227 19,13.2304249 C19,8.53766231 15.6266927,5.41972524 12.6220703,4.01026545 C12.5862769,3.99347768 12.544114,3.99749606 12.5121809,4.02073861 C12.4802477,4.04398116 12.4636589,4.08272512 12.4689453,4.12171743 C12.8558594,6.65068063 12.3212891,9.40118862 9.19498698,10.4599824 L9.19498698,10.4599824 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
