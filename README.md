@@ -1,3 +1,9 @@
+# Dateforce
+
+A CRM for dating!
+
+https://trello.com/c/qiUVv1pc/122-dateforce-a-dating-crm
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
